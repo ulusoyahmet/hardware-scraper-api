@@ -1,6 +1,6 @@
 # Hardware Scraper API
 
-A web scraping API built with ASP.NET Core 8.0 that follows N-tier architecture, Repository pattern, and Unit of Work pattern.
+A web scraping API built with ASP.NET Core 8.0 that follows Onion architecture, Repository pattern, and Unit of Work pattern.
 
 ## Project Structure
 
@@ -40,7 +40,7 @@ The solution is organized into the following projects:
    ```
 6. Run the application
 
-## API Endpoints
+## API Endpoints(url: newegg for now)
 
 - `POST /api/scraper/scrape-products`: Scrape products from a given URL
 - `POST /api/scraper/scrape-product-details`: Scrape detailed information for a specific product
